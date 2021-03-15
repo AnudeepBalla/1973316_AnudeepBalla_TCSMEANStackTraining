@@ -1,4 +1,4 @@
-Git link: https://github.com/AnudeepBalla/1973316_AnudeepBalla_TCSMEANStackTraining
+Git link: https://github.com/AnudeepBalla/1973316_AnudeepBalla_TCSMEANStackTraining/tree/main/BudgetPlanner
 
 A simple team planner with 3 html pages
 1. index.html
