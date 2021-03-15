@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: cursive;
+      text-align: center;
+      
+
+    }
+    .cards{
+      margin-left: 32%;
+
+
+    }
+    .card2{
+      margin-left: 32%;
+
+
+    }
+    .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  align-self: center;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgb(165, 241, 246);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #7dbfeb;
+  color: white;
+  transform: rotateY(180deg);
+}
+   
+  </style>
+</head>
+<body>
+  <div style="background-color:#d2d2e6e0 ;height:60px">
+    <h2 style="color: rgb(0, 0, 0)"  ><img src="plan.svg" width="30" height="40">Budget Planner </h2>
+  </div>
+  
+  
+  <div class="cards" id="cards">
+    <div class="flip-card" >
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="projectManager.webp" alt="Project Manager" style="width:150px;height:150px;">
+        <h2>Project Manager</h2>
+  
+      </div>
+      <div class="flip-card-back" >
+        <h1 id="target ">Manager's Portal</h1><br>
+        <button><a href="manager.html">Click to enter to Manager's Portal</a></button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="card2" id="card2">
+    <div class="flip-card" >
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="finance.webp" alt="Project Manager" style="width:150px;height:150px;">
+          <h2>Finance Manager</h2>
+    
+        </div>
+      
+
+        <div class="flip-card-back">
+          <h1>Finance Portal</h1><br>
+          <button><a href="finance.html">Click to enter to Finance's Portal</a></button>
+          
+          
+          
+        </div>
+        </div>
+    </div>
+      
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
