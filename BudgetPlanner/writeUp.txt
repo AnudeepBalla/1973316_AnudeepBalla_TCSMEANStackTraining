@@ -1,0 +1,17 @@
+Git link: https://github.com/AnudeepBalla/1973316_AnudeepBalla_TCSMEANStackTraining
+
+A simple team planner with 3 html pages
+1. index.html
+2. manager.html
+3.finance.html
+
+index.html is the landing page/Home page where the user can chose to be manager or finance. 
+based on the selection the page will be redirected. 
+Once ur on the manager.html you will have addBudget button to add the entries
+once a entry is listed, a dynamic delete button is enabled to delete the entry.
+
+Home button is used to navigate to index.html
+
+in finance.html the table is displayed on clicking the display button.
+
+the total budget is displayed on a card which on hover flips to display the Total Budget amount.
