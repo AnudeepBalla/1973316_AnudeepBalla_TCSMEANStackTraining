@@ -61,24 +61,8 @@ function storeInSession(data) {
 
 function addNewBlog(blog, i) {
    
-    // var allBlogs = document.getElementById("allBlogs");
-
-    // var newRow = document.createElement('div');
-    // newRow.className = 'row';
-    // newRow.id = "blog_" + i;
    
-    // var titleDiv = document.createElement('h2');
-    // titleDiv.className = "blogTitle"
-    // titleDiv.innerHTML = blog.title;
-    // newRow.appendChild(titleDiv);
-
     
-    // var artDiv = document.createElement('p');
-    // var spce=document.createElement('br');
-    // artDiv.className = "blogArt"
-    // artDiv.innerHTML = blog.art;
-    // newRow.appendChild(artDiv);
-    // newRow.appendChild(spce)
     const container = document.getElementById('accordion');
     const card = document.createElement('div');
 
