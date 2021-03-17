@@ -1,0 +1,10 @@
+Git link: https://github.com/AnudeepBalla/1973316_AnudeepBalla_TCSMEANStackTraining
+
+Folder :- SimplyBlog
+
+files: index.html
+        script.js
+        
+        
+  A very simple blogger page where user can upload a blog. A blog can be uploaded by clicking on the 'Add Blog' button. A pop up opens where the user can add Title, Blog content and an Image.
+  
