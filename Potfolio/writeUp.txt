@@ -1,5 +1,0 @@
-
-
-
-A simple portfolio app built with angular where we have a login component, Signup component and Home component. 
-
