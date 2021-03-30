@@ -1,1 +1,2 @@
-Balla Philomine Raj Anudeep
+github link: https://github.com/AnudeepBalla/1973316_AnudeepBalla_TCSMEANStackTraining
+A simple quiz app with routing and components. retriving questions from JSON
