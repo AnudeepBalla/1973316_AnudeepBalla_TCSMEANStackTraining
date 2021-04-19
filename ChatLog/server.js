@@ -27,7 +27,7 @@ io.on("connection",(socket)=> {
                     let db = client.db("meanstack");
                     db.collection("ChatLog").insertOne({name: name, message: message},(err2,result)=>{
                             if(!err2){
-                                console.log(result.insertedCount + " message has been sent!");
+                                console.log(result.insertedCount + " message sent!");
                             }else {
                                 console.log(err2.message);
                             }
